@@ -1,0 +1,12 @@
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\bin\Release\RandomFilePicker.exe.config
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\bin\Release\RandomFilePicker.exe
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\bin\Release\RandomFilePicker.pdb
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.Form1.resources
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.Properties.Resources.resources
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.csproj.GenerateResource.cache
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.csproj.CopyComplete
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.exe
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\obj\Release\RandomFilePicker.pdb
+C:\Users\Jacob\Desktop\Projects\RandomFilePicker\Project\RandomFilePicker\bin\Release\Microsoft.WindowsAPICodePack.dll
