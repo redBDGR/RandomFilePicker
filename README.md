@@ -1,7 +1,7 @@
 # RandomFilePicker #
 
 
-This is a basic application that I made for personal "easy of use".
+This is a basic application that I made for personal "ease of use".
 
 With this application, you can select a directory and it will allow you to grab a random file from within the selected directory
 
