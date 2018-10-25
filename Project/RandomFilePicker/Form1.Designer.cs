@@ -34,11 +34,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.fileNameTextHeader = new System.Windows.Forms.Label();
             this.selectNewButton = new System.Windows.Forms.Button();
-            this.fileNameText = new System.Windows.Forms.TextBox();
             this.openFileButton = new System.Windows.Forms.Button();
             this.deleteFileButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.filePositionText = new System.Windows.Forms.Label();
+            this.fileNameText = new System.Windows.Forms.Label();
+            this.previousFileButton = new System.Windows.Forms.Button();
+            this.nextFileButton = new System.Windows.Forms.Button();
+            this.moveFileButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +86,7 @@
             // 
             // selectNewButton
             // 
+            this.selectNewButton.Enabled = false;
             this.selectNewButton.Location = new System.Drawing.Point(356, 81);
             this.selectNewButton.Name = "selectNewButton";
             this.selectNewButton.Size = new System.Drawing.Size(126, 20);
@@ -91,19 +95,10 @@
             this.selectNewButton.UseVisualStyleBackColor = true;
             this.selectNewButton.Click += new System.EventHandler(this.selectNewButton_Click);
             // 
-            // fileNameText
-            // 
-            this.fileNameText.Enabled = false;
-            this.fileNameText.Location = new System.Drawing.Point(12, 81);
-            this.fileNameText.Name = "fileNameText";
-            this.fileNameText.Size = new System.Drawing.Size(338, 20);
-            this.fileNameText.TabIndex = 5;
-            this.fileNameText.Text = "None";
-            // 
             // openFileButton
             // 
             this.openFileButton.Enabled = false;
-            this.openFileButton.Location = new System.Drawing.Point(13, 117);
+            this.openFileButton.Location = new System.Drawing.Point(91, 117);
             this.openFileButton.Name = "openFileButton";
             this.openFileButton.Size = new System.Drawing.Size(98, 23);
             this.openFileButton.TabIndex = 6;
@@ -114,7 +109,7 @@
             // deleteFileButton
             // 
             this.deleteFileButton.Enabled = false;
-            this.deleteFileButton.Location = new System.Drawing.Point(117, 117);
+            this.deleteFileButton.Location = new System.Drawing.Point(299, 117);
             this.deleteFileButton.Name = "deleteFileButton";
             this.deleteFileButton.Size = new System.Drawing.Size(98, 23);
             this.deleteFileButton.TabIndex = 7;
@@ -139,16 +134,60 @@
             this.filePositionText.Size = new System.Drawing.Size(0, 13);
             this.filePositionText.TabIndex = 9;
             // 
+            // fileNameText
+            // 
+            this.fileNameText.AutoSize = true;
+            this.fileNameText.Location = new System.Drawing.Point(12, 85);
+            this.fileNameText.Name = "fileNameText";
+            this.fileNameText.Size = new System.Drawing.Size(0, 13);
+            this.fileNameText.TabIndex = 10;
+            // 
+            // previousFileButton
+            // 
+            this.previousFileButton.Enabled = false;
+            this.previousFileButton.Location = new System.Drawing.Point(13, 117);
+            this.previousFileButton.Name = "previousFileButton";
+            this.previousFileButton.Size = new System.Drawing.Size(33, 22);
+            this.previousFileButton.TabIndex = 11;
+            this.previousFileButton.Text = "<";
+            this.previousFileButton.UseVisualStyleBackColor = true;
+            this.previousFileButton.Click += new System.EventHandler(this.previousFileButton_Click);
+            // 
+            // nextFileButton
+            // 
+            this.nextFileButton.Enabled = false;
+            this.nextFileButton.Location = new System.Drawing.Point(52, 117);
+            this.nextFileButton.Name = "nextFileButton";
+            this.nextFileButton.Size = new System.Drawing.Size(33, 23);
+            this.nextFileButton.TabIndex = 12;
+            this.nextFileButton.Text = ">";
+            this.nextFileButton.UseVisualStyleBackColor = true;
+            this.nextFileButton.Click += new System.EventHandler(this.nextFileButton_Click);
+            // 
+            // moveFileButton
+            // 
+            this.moveFileButton.Enabled = false;
+            this.moveFileButton.Location = new System.Drawing.Point(195, 117);
+            this.moveFileButton.Name = "moveFileButton";
+            this.moveFileButton.Size = new System.Drawing.Size(98, 23);
+            this.moveFileButton.TabIndex = 13;
+            this.moveFileButton.Text = "Move";
+            this.moveFileButton.UseVisualStyleBackColor = true;
+            this.moveFileButton.Click += new System.EventHandler(this.moveFileButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(490, 152);
+            this.Controls.Add(this.moveFileButton);
+            this.Controls.Add(this.nextFileButton);
+            this.Controls.Add(this.previousFileButton);
+            this.Controls.Add(this.fileNameText);
             this.Controls.Add(this.filePositionText);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.deleteFileButton);
             this.Controls.Add(this.openFileButton);
-            this.Controls.Add(this.fileNameText);
             this.Controls.Add(this.selectNewButton);
             this.Controls.Add(this.fileNameTextHeader);
             this.Controls.Add(this.panel1);
@@ -171,11 +210,14 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label fileNameTextHeader;
         private System.Windows.Forms.Button selectNewButton;
-        private System.Windows.Forms.TextBox fileNameText;
         private System.Windows.Forms.Button openFileButton;
         private System.Windows.Forms.Button deleteFileButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label filePositionText;
+        private System.Windows.Forms.Label fileNameText;
+        private System.Windows.Forms.Button previousFileButton;
+        private System.Windows.Forms.Button nextFileButton;
+        private System.Windows.Forms.Button moveFileButton;
     }
 }
 
